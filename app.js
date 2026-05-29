@@ -49,7 +49,7 @@ deviceId:deviceId,
 login:new Date().toISOString()
 });
 
-fetch("YOUR_GOOGLE_SCRIPT_URL",{
+fetch("https://script.google.com/macros/s/AKfycbxw61NpHK62Pte7Byh529ccxgu_aceUhqZCWB7paid3AqYCPoCYl-12y5fpakgtY_jkZw/exec",{
 method:"POST",
 body:JSON.stringify({
 email:user.email,
